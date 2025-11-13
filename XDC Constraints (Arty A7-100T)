@@ -1,0 +1,12 @@
+## ---------- Clock ----------
+set_property -dict { PACKAGE_PIN E3 IOSTANDARD LVCMOS33 } [get_ports { clk }]
+create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports { clk }]
+
+## ---------- Reset Button ----------
+# BTN0 used as active-low reset
+set_property -dict { PACKAGE_PIN D9 IOSTANDARD LVCMOS33 PULLUP } [get_ports { rest }]
+
+## ---------- 3-bit Output LEDs ----------
+set_property -dict { PACKAGE_PIN H5 IOSTANDARD LVCMOS33 } [get_ports { count[0] }]
+set_property -dict { PACKAGE_PIN J5 IOSTANDARD LVCMOS33 } [get_ports { count[1] }]
+set_property -dict { PACKAGE_PIN T9 IOSTANDARD LVCMOS33 } [get_ports { count[2] }]
