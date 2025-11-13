@@ -37,6 +37,7 @@ Observe slow LED blinking in binary order
 Press BTN0 to reset the counter
 
 # Video
+https://youtube.com/shorts/XJq5FsRQXXk?feature=share
 
 # Schematic
 <img width="1632" height="906" alt="image" src="https://github.com/user-attachments/assets/997f3d1e-1b76-4444-80fd-0c9fa28efae7" />
@@ -44,7 +45,9 @@ Press BTN0 to reset the counter
 # 
 <img width="1037" height="247" alt="image" src="https://github.com/user-attachments/assets/7bc9401e-ce79-49b1-a72d-52b6e3224adc" />
 <img width="812" height="418" alt="image" src="https://github.com/user-attachments/assets/065e1072-b398-4fd7-bae2-82c7201d9cad" />
-<img width="498" height="267" alt="image" src="https://github.com/user-attachments/assets/8c96b410-b908-439b-8aee-feedb1b455c6" />
+<img width="498" height="267" alt="image" src="https://github.com/user-attachments/assets/8c96b410-b908-439b-8aee-feedb1b455c6" /> 
+<img width="501" height="258" alt="image" src="https://github.com/user-attachments/assets/8d858a4a-d5f2-4945-ac46-e295d0e83597" />
+
 
 
 
