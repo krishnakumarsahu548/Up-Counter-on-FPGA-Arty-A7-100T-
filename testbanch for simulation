@@ -1,0 +1,15 @@
+`timescale 1ns / 1ps
+
+
+module tb;
+reg clk,rest;
+wire [2:0]count;
+
+up_counter_arty_a7 uut(.clk(clk), .rest(rest), .count(count));
+always #50 clk=~clk;
+initial begin
+clk=0; rest=1; #100;
+rest=0; #100;
+rest=0;
+end
+endmodule
