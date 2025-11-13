@@ -1,0 +1,22 @@
+`timescale 1ns / 1ps
+
+module up_counter_arty_a7(
+    input  wire clk,     // 100 MHz onboard clock (E3)
+    input  wire rest,    // Reset button (active-low on BTN0)
+    output reg  [2:0] count
+);
+
+    // Clock divider to slow down LED counting
+    reg [26:0] clk_div;  // 2^27 ≈ 1.34 s at 100 MHz
+
+    always @(posedge clk) begin
+        if (~rest) begin
+            clk_div <= 0;
+            count   <= 0;
+        end else begin
+            clk_div <= clk_div + 1;
+            if (clk_div == 0)          // when divider wraps, increment counter
+                count <= count + 1;
+        end
+    end
+endmodule
