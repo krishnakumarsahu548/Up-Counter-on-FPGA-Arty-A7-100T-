@@ -36,6 +36,9 @@ Observe slow LED blinking in binary order
 
 Press BTN0 to reset the counter
 
+# Video
+
+
 # 🧾 Author / Credits
 
 Project: 3-bit Up Counter on FPGA
