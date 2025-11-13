@@ -41,10 +41,15 @@ Press BTN0 to reset the counter
 # Schematic
 <img width="1632" height="906" alt="image" src="https://github.com/user-attachments/assets/997f3d1e-1b76-4444-80fd-0c9fa28efae7" />
 
+# 
+<img width="1037" height="247" alt="image" src="https://github.com/user-attachments/assets/7bc9401e-ce79-49b1-a72d-52b6e3224adc" />
+<img width="812" height="418" alt="image" src="https://github.com/user-attachments/assets/065e1072-b398-4fd7-bae2-82c7201d9cad" />
+<img width="498" height="267" alt="image" src="https://github.com/user-attachments/assets/8c96b410-b908-439b-8aee-feedb1b455c6" />
+
 
 
 # 🧾 Author / Credits
 
 Project: 3-bit Up Counter on FPGA
 
-Developer: krishna
+Developer: krishna Kumar
