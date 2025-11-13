@@ -38,6 +38,10 @@ Press BTN0 to reset the counter
 
 # Video
 
+# Schematic
+<img width="1632" height="906" alt="image" src="https://github.com/user-attachments/assets/997f3d1e-1b76-4444-80fd-0c9fa28efae7" />
+
+
 
 # 🧾 Author / Credits
 
