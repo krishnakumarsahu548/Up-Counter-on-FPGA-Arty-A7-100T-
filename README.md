@@ -40,4 +40,4 @@ Press BTN0 to reset the counter
 
 Project: 3-bit Up Counter on FPGA
 
-Developer: Your Name
+Developer: krishna
